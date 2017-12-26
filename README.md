@@ -2,6 +2,9 @@
 This repository presents an extended kalman filter (EKF) library and one of its applications as a sample use case. 
 
 # Sample use case: Lidar and radar sensor fusion
+
+First, check out readme from [here](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project)
+
 Sensor fusion algorithm based on EKF is used to track a vehicle. It predicts 2D coordinate and velocity of the vehicle from lidar and radar measurements. Results are shown on the animation below. You can check out full video from [here](https://youtu.be/EC-NPt4UdZ0)
 
 ![Sensor fusion](https://media.giphy.com/media/xULW8KXaxdFFj28QAU/giphy.gif "Sensor Fusion")
