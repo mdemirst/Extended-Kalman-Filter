@@ -39,13 +39,13 @@ link_directories(/usr/local/Cellar/libuv/1.11.0/lib)
 
 endif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin") 
 
-add_executable(project src/main.cpp ${HEADER_FILES})
+add_executable(ExtentedKF src/main.cpp ${HEADER_FILES})
 
 target_link_libraries(ekf kf)
 
 target_link_libraries(ekf_fusion ekf)
 
-target_link_libraries(project ekf_fusion z ssl uv uWS)
+target_link_libraries(ExtentedKF ekf_fusion z ssl uv uWS)
 
 ################################
 # GTest
